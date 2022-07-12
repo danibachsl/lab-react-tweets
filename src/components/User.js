@@ -2,10 +2,10 @@
 
 function UserData(props) {
     return (
-      <img
-        src={ props.tweet.user }
-        alt="example"
-      />
+      <div>
+        <span className="name"> { props.tweet.user.name } </span>
+        <span className="handle">{ props.tweet.user.handle }</span>
+      </div>
     );
   }
   
