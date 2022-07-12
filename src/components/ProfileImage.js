@@ -1,11 +1,10 @@
 // React Component <ProfileImage />
 
-function ProfileImage(props) {
+
+
+function ProfileImage(image) {
     return (
-      <img
-        src={ props.tweet.user.image }
-        alt="example"
-      />
+        <img src={ image } className="profile" alt="profile"/>
     );
   }
   

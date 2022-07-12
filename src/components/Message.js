@@ -1,9 +1,9 @@
 // React Component <Message />
 
-function Message(props) {
+function Message(message) {
     return (
         <div>
-            <span className="message"> { props.tweet.message } </span>
+            <p className="message"> { message } </p>
         </div>
     );
 }

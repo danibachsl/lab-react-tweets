@@ -1,10 +1,10 @@
 // React Component <UserData />
 
-function UserData(props) {
+function UserData(userData) {
     return (
       <div>
-        <span className="name"> { props.tweet.user.name } </span>
-        <span className="handle">{ props.tweet.user.handle }</span>
+        <span className="name"> { userData.name } </span>
+        <span className="handle">{ userData.handle }</span>
       </div>
     );
   }
