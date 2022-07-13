@@ -1,15 +1,22 @@
 // React Component <Actions />
 
 function Actions() {
-    return (
-        <div className="actions">
-            <i class="far fa-comment"></i>
-            <i class="fas fa-retweet"></i>
-            <i class="far fa-heart"></i>
-            <i class="fas fa-share"></i>
-        </div>
-    );
+	return (
+		<div className="actions">
+			<a href="/">
+				<i class="fa fa-comment" aria-hidden="true" />
+			</a>
+			<a href="/">
+				<i class="fa fa-retweet" aria-hidden="true" />
+			</a>
+			<a href="/">
+				<i class="fa fa-heart" aria-hidden="true" />
+			</a>
+			<a href="/">
+				<i class="fa fa-share" aria-hidden="true" />
+			</a>
+		</div>
+	);
 }
 
 export default Actions;
-

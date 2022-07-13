@@ -1,11 +1,7 @@
 // React Component <Timestamp />
 
-function Timestamp(time) {
-    return (
-        <div>
-            <span className="timestamp"> { time } </span>
-        </div>
-    );
+function Timestamp({ time }) {
+    return <span className="timestamp"> {time} </span>;
 }
 
 export default Timestamp;

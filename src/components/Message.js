@@ -1,6 +1,6 @@
 // React Component <Message />
 
-function Message(message) {
+function Message({ message }) {
     return (
         <div>
             <p className="message"> { message } </p>
