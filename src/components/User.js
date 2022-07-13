@@ -1,6 +1,6 @@
 // React Component <UserData />
 
-function UserData(userData) {
+function UserData({ userData }) {
     return (
       <div>
         <span className="name"> { userData.name } </span>
